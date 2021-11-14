@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* COMPONENT SECTION  */
+
+:root {
+    --c-orange: #FFDAC0;
+    --c-blue : #031146;
+    --c-blue-light: #0098FF;
+}
+
+body {
+    background-color: #E9E7F1;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Component form  */
+.franja {
+    border-bottom: 1px solid #e2e3f3ba;
+}
+.form-content {
+    padding: 2.5rem 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 370px;
+}   
+.registro .form-content {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.perfil-item img{
+    border-radius: 50%;
+}
+
+h3,h2,h1, p {
+    font-family: 'Nunito', sans-serif;
+}
+.title-color {
+    color:#071442;
+    
+    margin-bottom: 30px;
+    /* color: var(--c-blue); */
+}
+h3.title-color {
+    font-size: 35px;
+}
+/* .c-login {
+    padding: 0 1.25rem;
+} */
+.form-content .c-btn {
+    padding: 10px;
+}
+
+.form-content button {
+    background-color: #7000FF;
+    width: 100%;
+    padding:12px;
+    color:white;
+}
+.link-color, .link-color:hover  {
+    color: #7000FF;
+    margin: 0 10px ;
+}
+.c-description {
+    text-align: center;
+}
+.c-description h1 {
+    margin-top: .625rem;
+    font-size: 3.125rem;
+}
+
+@media (min-width: 768px){
+
+    section {
+        padding: 100px 0;
+    }
+
+}
+
+
+/* Page Dashboard  */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 1px 2px 3px #d3cbcbb5;
+}
+#mainNav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* body {
+    background-color: #FBFCFF;
+} */
+
+.navbar-sidenav {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.navbar-sidenav .nav-link-text {
+    font-size: 1rem;
+    font-weight: 600;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #A5B4CB;
+    margin-left: 4px;
+}
+
+.navbar-sidenav  .active-link .nav-link-text, .navbar-sidenav li .active-link i {
+    color: #3F53C9;
+}
+@media (min-width:968px){
+    .navbar-sidenav {
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    } 
+}
+
+.indicator {
+    color: #3F53C9 !important;
+}
+
+
+/* Template Plantillas Lista de Proyectos   */
+.list-projects {
+    border-top: 1px solid #d3d5d9d9;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.list-projects li{
+    padding: 12px;
+    background: white;
+    margin: 12px 0;
+    box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+    padding-left: 30px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-projects li:before {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top:38%;
+    width:10px;
+    height:10px;
+    /* background:#0098FF; */
+    background-color: #6C63FF;
+    /* border-radius: 50%; */
+
+}
+.underline-span {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #000
+}
+#mainNav .navbar-toggler {
+    background-color: #3F53C9;
+    color: #ffffff
+}

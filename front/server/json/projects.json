@@ -1,0 +1,57 @@
+{
+    "data": [{
+            "id": 1,
+            "title": "Personalizacón Ultra",
+            "squad": "SMT Continuidad Journey",
+            "team": [{
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }, {
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }]
+        },
+        {
+            "id": 2,
+            "title": "Personalizacón Ultra 2",
+            "squad": "SMT Continuidad Journey",
+            "team": [{
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }, {
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }]
+        },
+        {
+            "id": 3,
+            "title": "Personalizacón Ultra 3",
+            "squad": "SMT Continuidad Journey",
+            "team": [{
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }, {
+                "name": "José Felipe Tuesta",
+                "perfil": "Developer Backend",
+                "empresa": "INDRA",
+                "tarifa": 63.26,
+                "dias": 22
+            }]
+        }
+    ]
+}
