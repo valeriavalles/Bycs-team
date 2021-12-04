@@ -1,0 +1,29 @@
+.fichas-listado-v2 .voto .voto-estrellas{
+    display: block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    /* width: 50%; */
+    /* margin-top: 40px; */
+  }
+  .fichas-listado-v2 .voto .voto-estrellas i{
+    color: #7000FF;
+    font-size: 42px;
+    padding-right: 3px;
+  }
+  
+  .fichas-listado-v2 .voto .voto-estrellas i:hover{
+    cursor: pointer;
+    color: #7000FF;
+  }
+  .fichas-listado-v2 .voto .voto-estrellas i.fa-star,
+  .fichas-listado-v2 .voto .voto-estrellas:hover i{
+    color: #c0c0c0;
+  }
+  .fichas-listado-v2 .voto .voto-estrellas:hover i:before{
+    content: "\f005";
+  }
+  .fichas-listado-v2 .voto .voto-estrellas i.fa-star-o:hover:before,
+  .fichas-listado-v2 .voto .voto-estrellas i:hover ~ i:before{
+    content: "\f005";
+    color: #7000FF;
+  }

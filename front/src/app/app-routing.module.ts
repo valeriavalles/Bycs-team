@@ -7,6 +7,7 @@ import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { RegisterComponent } from './register/register.component';
 import { PerfilComponent } from './layouts/perfil/perfil.component';
 import { RegisterServicesComponent } from './layouts/register-services/register-services.component';
+import { DetallsServiceComponent } from './layouts/detalls-service/detalls-service.component';
 import { DefaultHomeComponent } from './layouts/default-home/default-home.component';
 
 
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path:'home', 
         component: DefaultHomeComponent,
+        // children: [{
+        //   path: 'details',
+        //   component: DetallsServiceComponent,
+        // }]
       },
       {
         path:'perfil', 
@@ -30,6 +35,10 @@ const routes: Routes = [
         //   path: 'details',
         //   component: DetailsProjectComponent,
         // }]
+      },
+      {
+        path: 'home/:details',
+        component: DetallsServiceComponent,
       },
       {
         path:'services', 

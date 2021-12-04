@@ -15,4 +15,18 @@ export class ProjectService {
   // getNoticia(){
   //   return this.http.get('https://localhost:44309/api/Noticias/GetNoticia')
   //  }
+
+  getUser() {
+    //Invoca Servicio rest
+    return this.http.get('https://localhost:44331/api/user');
+   
+  }
+  // saveUser(usuario: UsuarioModel): Observable<any> {
+  //   console.log("eror de errror ", usuario);
+  //   return this.http.post('https://localhost:44331/api/user', usuario);
+  // }
+
+  // getServicio():Observable<any> {
+  //   return this.http.get('https://localhost:44331/api/servicio');
+  // }
 }

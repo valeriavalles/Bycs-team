@@ -15,6 +15,9 @@ import { DefaultHomeComponent } from './layouts/default-home/default-home.compon
 import { RegisterComponent } from './register/register.component';
 import { PerfilComponent } from './layouts/perfil/perfil.component';
 import { RegisterServicesComponent } from './layouts/register-services/register-services.component';
+import { DetallsServiceComponent } from './layouts/detalls-service/detalls-service.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+// import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,13 +27,15 @@ import { RegisterServicesComponent } from './layouts/register-services/register-
     DefaultHomeComponent,
     RegisterComponent,
     PerfilComponent,
-    RegisterServicesComponent
+    RegisterServicesComponent,
+    DetallsServiceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
