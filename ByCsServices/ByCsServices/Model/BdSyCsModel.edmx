@@ -18,6 +18,7 @@
           <Property Name="dni" Type="char" MaxLength="8" />
           <Property Name="numeroceltel" Type="varchar" MaxLength="100" />
           <Property Name="tiposervicio" Type="varchar" MaxLength="100" />
+          <Property Name="password" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityContainer Name="bdproyectoSyCsModelStoreContainer">
           <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
@@ -39,6 +40,7 @@
           <Property Name="dni" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
           <Property Name="numeroceltel" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="tiposervicio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="bdproyectoSyCsEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Usuario" EntityType="Self.Usuario" />
@@ -52,6 +54,7 @@
           <EntitySetMapping Name="Usuario">
             <EntityTypeMapping TypeName="bdproyectoSyCsModel.Usuario">
               <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="password" ColumnName="password" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="nombres" ColumnName="nombres" />
                 <ScalarProperty Name="apellidos" ColumnName="apellidos" />

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdproyectoSyCsModelStoreContainer" CdmEntityContainer="bdproyectoSyCsEntities">
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="bdproyectoSyCsModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="tipousuario" ColumnName="tipousuario" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="numeroceltel" ColumnName="numeroceltel" />
+          <ScalarProperty Name="tiposervicio" ColumnName="tiposervicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

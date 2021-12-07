@@ -23,5 +23,6 @@ namespace ByCsServices.Model
         public string dni { get; set; }
         public string numeroceltel { get; set; }
         public string tiposervicio { get; set; }
+        public string password { get; set; }
     }
 }

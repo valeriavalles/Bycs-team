@@ -1,0 +1,11 @@
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\ByCsServices.dll.config
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\ByCsServices.dll
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\ByCsServices.pdb
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\EntityFramework.dll
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\EntityFramework.SqlServer.dll
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\EntityFramework.xml
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\bin\EntityFramework.SqlServer.xml
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csproj.CoreCompileInputs.cache
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.dll
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.pdb
+C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csproj.AssemblyReference.cache
