@@ -50,3 +50,10 @@ C:\Users\Carla\source\repos\ApiRestByCs\ApiRestByCs\bin\Debug\netcoreapp3.1\Syst
 C:\Users\Carla\source\repos\ApiRestByCs\ApiRestByCs\bin\Debug\netcoreapp3.1\Twilio.dll
 C:\Users\Carla\source\repos\ApiRestByCs\ApiRestByCs\bin\Debug\netcoreapp3.1\Twilio.AspNet.Common.dll
 C:\Users\Carla\source\repos\ApiRestByCs\ApiRestByCs\bin\Debug\netcoreapp3.1\Twilio.AspNet.Mvc.dll
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.csproj.AssemblyReference.cache
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.AssemblyInfoInputs.cache
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.AssemblyInfo.cs
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.csproj.CoreCompileInputs.cache
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.MvcApplicationPartsAssemblyInfo.cache
+C:\Cursos EPE\DSD\Bycs-team\ApiRestByCs\ApiRestByCs\obj\Debug\netcoreapp3.1\ApiRestByCs.dll

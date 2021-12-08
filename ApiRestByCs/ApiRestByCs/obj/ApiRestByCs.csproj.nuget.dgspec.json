@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carla\\source\\repos\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj": {}
+    "C:\\Cursos EPE\\DSD\\Bycs-team\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carla\\source\\repos\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj": {
+    "C:\\Cursos EPE\\DSD\\Bycs-team\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carla\\source\\repos\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj",
+        "projectUniqueName": "C:\\Cursos EPE\\DSD\\Bycs-team\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj",
         "projectName": "ApiRestByCs",
-        "projectPath": "C:\\Users\\Carla\\source\\repos\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj",
-        "packagesPath": "C:\\Users\\Carla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carla\\source\\repos\\ApiRestByCs\\ApiRestByCs\\obj\\",
+        "projectPath": "C:\\Cursos EPE\\DSD\\Bycs-team\\ApiRestByCs\\ApiRestByCs\\ApiRestByCs.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Cursos EPE\\DSD\\Bycs-team\\ApiRestByCs\\ApiRestByCs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Carla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -9,3 +9,7 @@ C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csp
 C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.dll
 C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.pdb
 C:\Users\Carla\source\repos\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csproj.AssemblyReference.cache
+C:\Cursos EPE\DSD\Bycs-team\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csproj.AssemblyReference.cache
+C:\Cursos EPE\DSD\Bycs-team\ByCsServices\ByCsServices\obj\Debug\ByCsServices.csproj.CoreCompileInputs.cache
+C:\Cursos EPE\DSD\Bycs-team\ByCsServices\ByCsServices\obj\Debug\ByCsServices.dll
+C:\Cursos EPE\DSD\Bycs-team\ByCsServices\ByCsServices\obj\Debug\ByCsServices.pdb

@@ -1,43 +1,54 @@
 
-
-
 <div>
     <div class="container-fluid">
        
         <div class="row">
           <div class="col-md-7">
             <h4 class="mb-3">Registrar Un nuevo servicio</h4>
-            <form class="form-content " style="max-width: 100%;">
+            <form (ngSubmit)="registrarService()" [formGroup]="formRegistrarService" class="form-content " style="max-width: 100%;">
+              <div class="form-group">
+                <label for="nombres"><strong> Código del Servicio : {{codigo}}</strong>
+                </label >
+                
+            </div>
               <div class="form-group">
                 <label for="Tipo">Tipo de Servicio
                 </label>
-                <select class="form-select p-2" id="Tipo" aria-label="Default select example" style="width: 100%;">
+                <select class="form-select p-2" formControlName="tipoServicio" aria-label="Default select example" style="width: 100%;">
                   <option selected>Selecciona un tipo de servicio</option>
-                  <option value="1">Gasfiteria</option>
-                  <option value="2">Pintura</option>
-                  <option value="3">Xxxxx</option>
+                  <option value="Gasfiteria">Gasfiteria</option>
+                  <option value="Pintura">Pintura</option>
+                  <option value="Electricidad">Electricidad</option>
+                  <option value="Mecanica">Mecánica</option>
                 </select>
               </div>
               <div class="form-group">
                   <label for="nombres">Nombre del Servicio
                   </label>
-                  <input type="text" class="form-control" id="nombres" aria-describedby="emailHelp">
+                  <input type="text" class="form-control" formControlName="obserServicio"  aria-describedby="emailHelp">
               </div>
               
               <div class="form-group">
                 <label for="nombres">Descripción del Servicio
                 </label>
-                <input type="text" class="form-control" id="nombres" aria-describedby="emailHelp">
+                <input type="text" class="form-control" formControlName="detalleServicio"  aria-describedby="emailHelp">
             </div>
             <div class="form-group">
               <label for="nombres">Distrito/Lugar
               </label>
-              <input type="text" class="form-control" id="nombres" aria-describedby="emailHelp">
+              <input type="text" class="form-control" formControlName="distrito" aria-describedby="emailHelp">
           </div>
-            <div class="c-btn text-center">
-                <!-- <button type="submit" class="btn">Regístrate</button> -->
+          <div class="form-group">
+            <label for="nombres">Url Imagen
+            </label>
+            <input type="text" class="form-control" formControlName="imgUrl" aria-describedby="emailHelp">
+          </div>
+            <!-- <div class="c-btn text-center">
                 <a class="btn  btn-success text-white ">Agregar Servicio</a>
-            </div>
+            </div> -->
+            <div class="c-btn">
+                <button class="btn">Agregar Servicio</button>
+              </div>
               
             </form>
             

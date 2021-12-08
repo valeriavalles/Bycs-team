@@ -1,70 +1,71 @@
 <div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-search">
-                  
-                    <form>
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="input-group">
-                            <input class="form-control" type="text" placeholder="Buscar Servicios">
-                            
-                            <span class="input-group-append">
-                              <button class="btn" type="button">
-                                <i class="fa fa-search"></i>
-                              </button>
-                            </span>
-                          </div>
-                        </div>
-                        <div class="col-md-4 d-flex">
-                          <input class="form-control" type="text" placeholder="Lugar">
-                          <!-- <div class="input-group"> -->
-                            
-                            <!-- <span class="input-group-append"> -->
-                            <button class="btn ml-1 bg-dark" type="button" style="color: #ffffff;">
-                              Buscar
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="content-search">
+                
+                  <form>
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="input-group">
+                          <input class="form-control" type="text" placeholder="Buscar Servicios">
+                          
+                          <span class="input-group-append">
+                            <button class="btn" type="button">
+                              <i class="fa fa-search"></i>
                             </button>
-                            <!-- </span> -->
-                          <!-- </div> -->
+                          </span>
                         </div>
                       </div>
-                        
-                        
-                      </form>
+                      <div class="col-md-4 d-flex">
+                        <input class="form-control" type="text" placeholder="Lugar">
+                        <!-- <div class="input-group"> -->
+                          
+                          <!-- <span class="input-group-append"> -->
+                          <button class="btn ml-1 bg-dark" type="button" style="color: #ffffff;">
+                            Buscar
+                          </button>
+                          <!-- </span> -->
+                        <!-- </div> -->
+                      </div>
+                    </div>
+                      
+                      
+                    </form>
 
-                     <div class="filter-especialidad mt-5 mb-3">
-                        <h5 class="mb-4">Especialidad</h5>
-                        <div class="tags mt-2 mb-2">
-                            <a href="javascript:void(0)">Todos</a>
-                            <a href="javascript:void(0)">Gasfiteria</a>
-                            <a href="javascript:void(0)">Carpinteria</a>
-                            <a href="javascript:void(0)">Pintor</a>
-                            <a href="javascript:void(0)">Especialista en parrillas</a>
-                        </div>
-                     </div> 
+                   <div class="filter-especialidad mt-5 mb-3">
+                      <h5 class="mb-4">Especialidad</h5>
+                      <div class="tags mt-2 mb-2">
+                          <a href="javascript:void(0)">Todos</a>
+                          <a href="javascript:void(0)">Gasfiteria</a>
+                          <a href="javascript:void(0)">Carpinteria</a>
+                          <a href="javascript:void(0)">Pintor</a>
+                          <a href="javascript:void(0)">Especialista en parrillas</a>
+                      </div>
+                   </div> 
 
-                </div>
-            </div>
-        </div>
-    </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-md-8">
-            <div class="content-card-service d-flex ">
-                <div class="image"><img src="https://clubdelpintor.com/wp-content/uploads/2018/02/pintor8.jpg" alt="" class="img-fluid"></div>
-                <div class="description">
-                  <h6>Pintor  en acabados finos fachada</h6>
-                  <p>Juan Gabriel Torres</p>
-                  <p>Surco , Benavides</p>
-                  <a class="btn btn-solicitar" routerLink="details">Ver servicio</a>
-                </div>
-                
-            </div>
-        </div>
+  <div class="container-fluid mt-5" *ngFor="let servicio of listservicios">
+    <div class="row">
+      <div class="col-md-8">
+          <div class="content-card-service d-flex ">
+              <div class="image"><img  [src]="servicio.imgUrl" alt="" class="img-fluid"></div>
+              <div class="description">
+                <h6>{{servicio.tipoServicio}}</h6>
+                <p>{{servicio.detalleServicio}}</p>
+                <a class="btn btn-solicitar" (click)="contactarServicio(servicio)">Ver servicio</a>
+              </div>
+              
+          </div>
       </div>
     </div>
-    
-    
+  </div>
+  
+  
 </div>
+
+

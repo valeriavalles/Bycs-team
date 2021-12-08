@@ -7,8 +7,10 @@ import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { RegisterComponent } from './register/register.component';
 import { PerfilComponent } from './layouts/perfil/perfil.component';
 import { RegisterServicesComponent } from './layouts/register-services/register-services.component';
-import { DetallsServiceComponent } from './layouts/detalls-service/detalls-service.component';
 import { DefaultHomeComponent } from './layouts/default-home/default-home.component';
+import { SolicitarServicioComponent } from './layouts/solicitar-servicio/solicitar-servicio.component';
+import { DetallsServiceComponent } from './layouts/detalls-service/detalls-service.component';
+import { SolicitudesComponent } from './solicitudes/solicitudes.component';
 
 
 const routes: Routes = [
@@ -23,10 +25,6 @@ const routes: Routes = [
       {
         path:'home', 
         component: DefaultHomeComponent,
-        // children: [{
-        //   path: 'details',
-        //   component: DetallsServiceComponent,
-        // }]
       },
       {
         path:'perfil', 
@@ -43,6 +41,14 @@ const routes: Routes = [
       {
         path:'services', 
         component: RegisterServicesComponent,
+      },
+      {
+        path:'solicitudes', 
+        component: SolicitudesComponent,
+      },
+      {
+       path:'contactar',  //Define la ruta
+       component: SolicitarServicioComponent,
       }
       
     ] },

@@ -1,0 +1,25 @@
+
+<form (ngSubmit)="confirmarSolicitud()" [formGroup]="formConfirmSolicitu" class="form-content">
+    <h3>Solicitar Servicio</h3>
+ 
+    <div class="form-group">
+        <label for="nombre">codigo servicio</label>
+        <input type="text" class="form-control" readonly    [value]="servicio.codServicio">
+      </div>
+    <div class="form-group">
+      <label for="nombre">Tipo Servicio</label>
+      <input type="text" class="form-control" readonly  [value]="servicio.tipoServicio">
+    </div>
+    <div class="form-group">
+      <label for="descripcion">Descripción</label>
+      <textarea type="text" class="form-control"   readonly [value]="servicio.obserServicio"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="nombre">Dirección</label>
+        <input type="text" class="form-control" formControlName="direccion">
+      </div>
+    <div class="form-group">
+        <label for="descripcion"></label>
+        <button   class="btn btn-primary">Confirmar</button>
+      </div>
+  </form>

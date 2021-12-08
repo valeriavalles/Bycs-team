@@ -1,12 +1,12 @@
 <div class="bg-dark p-4 rounded rounded-2">
-    <small class="text-purple-light"><strong> Categoría del servicio > Gasfiteria </strong></small>
+    <small class="text-purple-light"><strong> Categoría del servicio > </strong>{{servicio.tipoServicio}}</small>
     <div class="row">
         <div class="col-md-6 mt-2">
           <div class="text-white">
-            <h2 class="card-title">Especialista en servicios de gasfiteria</h2>
+            <h2 class="card-title">{{servicio.tipoServicio}}</h2>
             <p class="card-text">Trabajos a domicilio a todos los distritos en lima </p>
             <div>
-                <strong>Lugar :</strong> <small> Cercado de Lima</small>
+                <strong>Lugar : </strong> <small>{{servicio.distrito}}</small>
             </div>
             <div class="c-especialista mt-3">
                 <h5>Especialista</h5>
@@ -17,19 +17,19 @@
                     <div class="ml-2">
                       <small class="m-0">Juan Flores</small> 
                       <br> 
-                      <small>Con más de 5 años de experiencia en el rubro</small>
+                      <small>Con más de 3 años de experiencia en el rubro</small>
                     </div>
                 </div>
             </div>
             <div class="mt-2">
-                <a href="#" class=" btn btn-success">Solicitar Servicio</a>
+                <a href="javascript:void(0)" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Solicitar Servicio</a>
             </div>
            
           </div>
            
         </div>
         <div class="col-md-6 mt-2">
-            <img src="/assets/imgs/instalaciones-sanitarias.jpg" class="card-img-top" alt="...">
+            <img src="{{servicio.imgUrl}}" class="card-img-top" alt="...">
         </div>
     </div>
 </div>
@@ -56,5 +56,28 @@
         </div>
     </div>
 </div>
+
+<!-- Modal  -->
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Mensaje</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+         El profesional esta revisando tu solicitud
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerar</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+        </div>
+    </div>
+</div>
+
 
 

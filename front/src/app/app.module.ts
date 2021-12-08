@@ -15,9 +15,9 @@ import { DefaultHomeComponent } from './layouts/default-home/default-home.compon
 import { RegisterComponent } from './register/register.component';
 import { PerfilComponent } from './layouts/perfil/perfil.component';
 import { RegisterServicesComponent } from './layouts/register-services/register-services.component';
+import { SolicitarServicioComponent } from './layouts/solicitar-servicio/solicitar-servicio.component';
 import { DetallsServiceComponent } from './layouts/detalls-service/detalls-service.component';
-import { ModalModule } from 'ngx-bootstrap/modal';
-// import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
+import { SolicitudesComponent } from './solicitudes/solicitudes.component';
 
 @NgModule({
   declarations: [
@@ -28,14 +28,15 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     RegisterComponent,
     PerfilComponent,
     RegisterServicesComponent,
-    DetallsServiceComponent
+    SolicitarServicioComponent,
+    DetallsServiceComponent,
+    SolicitudesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    ModalModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
